@@ -98,7 +98,7 @@
             // colPress
             // 
             this.colPress.FillWeight = 90F;
-            this.colPress.HeaderText = "Poga";
+            this.colPress.HeaderText = "Press";
             this.colPress.Name = "colPress";
             this.colPress.ReadOnly = true;
             this.colPress.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -107,7 +107,7 @@
             // colTime
             // 
             this.colTime.FillWeight = 90F;
-            this.colTime.HeaderText = "Laiks";
+            this.colTime.HeaderText = "Time";
             this.colTime.Name = "colTime";
             this.colTime.ReadOnly = true;
             this.colTime.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -127,7 +127,7 @@
             // colModifier
             // 
             this.colModifier.FillWeight = 90F;
-            this.colModifier.HeaderText = "Modifikātors";
+            this.colModifier.HeaderText = "Modifier";
             this.colModifier.Name = "colModifier";
             this.colModifier.ReadOnly = true;
             this.colModifier.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -142,7 +142,7 @@
             this.btnLoadFromFile.Name = "btnLoadFromFile";
             this.btnLoadFromFile.Size = new System.Drawing.Size(116, 27);
             this.btnLoadFromFile.TabIndex = 5;
-            this.btnLoadFromFile.Text = "Ielādēt no faila";
+            this.btnLoadFromFile.Text = "LoadFromFile";
             this.btnLoadFromFile.UseVisualStyleBackColor = true;
             this.btnLoadFromFile.Click += new System.EventHandler(this.btnLoadFromFile_Click);
             // 
@@ -172,7 +172,7 @@
             this.btnSaveToFile.Name = "btnSaveToFile";
             this.btnSaveToFile.Size = new System.Drawing.Size(116, 27);
             this.btnSaveToFile.TabIndex = 4;
-            this.btnSaveToFile.Text = "Saglabāt failā";
+            this.btnSaveToFile.Text = "SaveToFile";
             this.btnSaveToFile.UseVisualStyleBackColor = true;
             this.btnSaveToFile.Click += new System.EventHandler(this.btnSaveToFile_Click);
             // 
@@ -184,7 +184,7 @@
             this.btnPlayRecord.Name = "btnPlayRecord";
             this.btnPlayRecord.Size = new System.Drawing.Size(116, 27);
             this.btnPlayRecord.TabIndex = 2;
-            this.btnPlayRecord.Text = "Atkārtot";
+            this.btnPlayRecord.Text = "PlayRecord";
             this.btnPlayRecord.UseVisualStyleBackColor = true;
             this.btnPlayRecord.Click += new System.EventHandler(this.btnPlayRecord_Click);
             // 
@@ -196,7 +196,7 @@
             this.btnStopRecord.Name = "btnStopRecord";
             this.btnStopRecord.Size = new System.Drawing.Size(116, 27);
             this.btnStopRecord.TabIndex = 1;
-            this.btnStopRecord.Text = "Apturēt (F12)";
+            this.btnStopRecord.Text = "Stop (F12)";
             this.btnStopRecord.UseVisualStyleBackColor = true;
             this.btnStopRecord.Click += new System.EventHandler(this.btnStopRecord_Click);
             // 
@@ -208,7 +208,7 @@
             this.btnStartRecord.Name = "btnStartRecord";
             this.btnStartRecord.Size = new System.Drawing.Size(116, 27);
             this.btnStartRecord.TabIndex = 0;
-            this.btnStartRecord.Text = "Ierakstīt";
+            this.btnStartRecord.Text = "StartRecord";
             this.btnStartRecord.UseVisualStyleBackColor = true;
             this.btnStartRecord.Click += new System.EventHandler(this.btnStartRecord_Click);
             // 
